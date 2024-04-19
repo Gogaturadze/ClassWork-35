@@ -1,0 +1,23 @@
+Assignment 1: Basic OOP Concepts
+Objective: Understand the basics of classes, objects, properties, and methods.
+
+Task:
+
+1. Create a JavaScript class called Person.
+2. Add properties for name, age, and gender to the Person class.
+3. Implement a method called introduce() in the Person class that returns a string introducing the person (e.g., "Hello, my name is [name], I am [age] years old.").
+4. Create two instances of the Person class with different names, ages, and genders.
+5. Call the introduce() method for each person and display their introductions.
+
+
+
+Assignment 2: Simple Inheritance
+Objective: Practice inheritance by creating subclasses.
+
+Task:
+
+1. Create a base class called Shape with a property type (e.g., "circle", "rectangle").
+2. Create subclasses Circle and Rectangle that inherit from the Shape class.
+3. Add properties specific to each subclass (radius for Circle and width & height for Rectangle).
+4. Implement a method calculateArea() in each subclass that calculates and returns the area of the shape.
+5. Create instances of both subclasses and display their types and areas.

@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 160px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+#circle,
+#rectangle {
+  position: relative;
+  border-radius: 50%;
+  border: 2px solid black;
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+#rectangle {
+  border-radius: 0;
+}
